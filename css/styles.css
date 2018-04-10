@@ -3,22 +3,31 @@
   background-size: cover;
   overflow: hidden;
   text-align: center;
-}
-#snack{
-  background: url("../images/");
-  background-size: cover;
-  overflow: hidden;
-  text-align: center;
+  height: 160px;
+  padding: 40px;
+  color: #f15a19;
 }
 #guy{
   background: url("../images/");
   background-size: cover;
   overflow: hidden;
   text-align: center;
+  height: 160px;
+  padding: 40px;
+  color: #f15a19;
 }
 #kitchen{
-  background: url("../images/");
+  background: url("../images/kitchen.jpeg");
   background-size: cover;
   overflow: hidden;
   text-align: center;
+  height: 160px;
+  padding: 40px;
+  color: #f15a19;
+}
+.section-header{
+  text-align: center;
+}
+.recharge{
+  text-decoration: underline;
 }
