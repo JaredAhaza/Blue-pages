@@ -1,0 +1,35 @@
+
+
+#talk {
+	background-image: url("../images/lightning.jpeg");
+	background-size: cover;
+	height: 160px;
+	color:yellow;
+	padding-top: 40px;
+
+
+}
+#speaker {
+	background-image: url("../images/speaker.jpeg");
+	background-size: cover;
+	height: 160px;
+	padding-top: 40px;
+
+	
+
+
+
+}
+#stand {
+	background-image: url("../images/download (3).jpeg");
+	background-size: cover;
+	height: 160px;
+	color:yellow;
+	padding-top: 40px;
+
+
+}
+.well {
+	height:200px;
+}
+.
