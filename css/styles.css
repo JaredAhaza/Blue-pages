@@ -1,0 +1,24 @@
+#kibanda{
+  background: url("../images/kibanda.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+#snack{
+  background: url("../images/");
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+#guy{
+  background: url("../images/");
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+#kitchen{
+  background: url("../images/");
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
