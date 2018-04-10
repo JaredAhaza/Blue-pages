@@ -1,3 +1,4 @@
+/* header */
 .well{
   text-align: center;
 }
@@ -21,10 +22,18 @@
   display: block;
 }
 
+/* people's names */
 .container span{
   font-size: 20px;
 }
 
+/* text padding */
 .text{
 padding: 50px;
+}
+
+/* slider-container */
+.slider-container{
+  background: #e6e6e6;
+  padding: 1rem 1rem;
 }
