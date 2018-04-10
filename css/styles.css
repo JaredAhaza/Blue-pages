@@ -10,6 +10,7 @@
   /* margin: 15px; */
   border: 2px solid #ccc;
   border-radius: 5px;
+  position: relative;
 }
 
 /* float image left */
@@ -17,8 +18,13 @@
   float: left;
   border-radius: 50%;
   margin-left: 30px;
+  display: block;
 }
 
 .container span{
   font-size: 20px;
+}
+
+.text{
+padding: 50px;
 }
