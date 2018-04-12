@@ -62,7 +62,7 @@ function showError(error) {
             break;
     }
 }
-
+// Get Current Position
 
 // Google Maps
 function myMap() {

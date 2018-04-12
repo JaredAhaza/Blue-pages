@@ -62,21 +62,22 @@ tr:nth-child(even){background-color: #f2f2f2}
    background-color: #408ec9;
    text-align: center;
    padding: 20px;
-   margin-top: 5px; 
+   margin-top: 2px; 
    display: block;
 }
 
 .fa {
-    padding: 30px;
-    font-size: 80px;
-    width: 40px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
 }
+
 .fa:hover {
-    opacity: 0.9;
+    opacity: 0.3;
+    color: whitesmoke;
 }
 
 .fa-facebook {
@@ -98,3 +99,7 @@ tr:nth-child(even){background-color: #f2f2f2}
     background: #bb0000;
     color: white;
 }
+
+
+
+
