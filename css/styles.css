@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
 #talk {
     background-image: url("../images/lightning.jpeg");
     background-size: cover;
@@ -119,4 +123,14 @@ li.dropdown {
 .logo {
   float: left;
   border-radius: 700%;
+<<<<<<< HEAD
+=======
+}
+.word{
+  text-align: center;
+}
+
+.panel-default{
+  background-color: #98AFC7;
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
 }
