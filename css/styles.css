@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 #talk {
     background-image: url("../images/lightning.jpeg");
@@ -66,6 +68,7 @@
 .recharge{
   color: silver;
 }
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
 #head {
   background-image: url("../images/top.jpg");
   background-repeat: no-repeat;
@@ -73,6 +76,10 @@
   min-height: 500px;
   min-width: 100%;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
 ul {
   list-style-type: none;
   margin: 0;
@@ -80,9 +87,17 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
+<<<<<<< HEAD
+
 li {
   float: left;
 }
+
+=======
+li {
+  float: left;
+}
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
 li a, .dropbtn {
   display: inline-block;
   color: white;
@@ -90,12 +105,24 @@ li a, .dropbtn {
   padding: 14px 16px;
   text-decoration: none;
 }
+<<<<<<< HEAD
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+=======
 li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 li.dropdown {
   display: inline-block;
 }
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
 .dropdown-content {
   display: none;
   position: absolute;
@@ -104,6 +131,10 @@ li.dropdown {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -111,6 +142,21 @@ li.dropdown {
   display: block;
   text-align: left;
 }
+<<<<<<< HEAD
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img {
+  float: left;
+  border-radius: 700%;
+}
+=======
 .dropdown-content a:hover {
   background-color: #f1f1f1
 }
@@ -128,3 +174,4 @@ li.dropdown {
 .panel-default{
   background-color: #98AFC7;
 }
+>>>>>>> b94c6e2a68992f67095d38f29b5834b60e925c48
