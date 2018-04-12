@@ -1,3 +1,4 @@
+
 // $(document).ready(function () {
 //     $("#myCarousel").carousel();
 
@@ -72,4 +73,12 @@ function myMap() {
         mapTypeId: google.maps.MapTypeId.HYBRID
     }
 var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+function open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function close() {
+  document.getElementById("mySidebar").style.display = "none";
+
 }
