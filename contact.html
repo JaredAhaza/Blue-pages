@@ -4,17 +4,31 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Contacts</title>
 </head>
 
 <body>
-  <h1>CONTACTS</h1>
-  <p>Click the button to get your coordinates.</p>
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="google"><i class="fa fa-google"></i></a> 
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+  <h1 class="contact-head">CONTACTS</h1>
+  <h4 id="coordinates"><strong>Click the button to get your coordinates.</strong></h4>
 
-  <button onclick="getLocation()">Try It</button>
+  <button class="btn btn-danger" onclick="getLocation()" id="coordinates">Get Your Location</button>
 
-  <p id="demo"></p>
+  <br>
+  <br>
+  <p id="demo" id="coordinates"></p>
 
+  <!-- <hr class="line"> -->
+  <hr>
+  
   <div style="overflow-x:auto;">
     <table>
       <tr>
@@ -27,7 +41,8 @@
         <td>Anthony Mwaniki</td>
         <td>0711222333</td>
         <td>Moringa Prep</td>
-        <td>Monaco</td>
+        <td><a href="https://www.google.com/maps/place/Monaco/@43.7378666,7.4170977,15z/data=!3m1!4b1!4m5!3m4!1s0x12cdc26f7b3f8531:0x74f7784c3ac49cfc!8m2!3d43.7384176!4d7.4246158">
+          Monaco</a></td>
       </tr>
       <tr>
         <td>Anthony Brandon</td>
@@ -158,12 +173,15 @@
     </table>
   </div>
 
+  <hr>
+
   <h2>Google Maps</h2>
   <div id="map">My map will go here</div>
 
   <script src="js/jquery.js"></script>
   <script src="js/scripts.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
 </body>
 
 </html>

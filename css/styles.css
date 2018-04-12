@@ -14,6 +14,16 @@
     overflow-x: hidden;
 }
 
+.line{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: inset;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ol {
     list-style-type:none;
     background-color: #f2f2f2;
@@ -31,13 +41,70 @@ th, td{
 
 tr:nth-child(even){background-color: #f2f2f2}
 
-h1{
-    background-color: #0000FF;
+.contact-head{
+    background-color: #408ec9;
     text-align: center;
     padding: 10px;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 #map{
     width: 100%;
     height: 400px;
 }
+
+#coordinates{
+    margin-left: 5px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: right;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+      background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
