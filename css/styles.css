@@ -276,8 +276,33 @@ img {
 }
 .word{
   text-align: center;
+  background-color: #408ec9;
 }
 
 .panel-default{
   background-color: #98AFC7;
+}
+
+body{
+  /* background-color: lightgrey; */
+}
+
+.navbar-inner{
+  background-color: transparent;
+}
+
+.container{
+  background-color: transparent;
+}
+.jumbotron{
+  background-image: url("../images/compeople.jpeg");
+  background-size: cover;
+  margin: 0px;
+  height: 700px;
+  text-align: center;
+}
+
+#navbar{
+  color: white;
+  background-color: black;
 }
