@@ -1,0 +1,308 @@
+.panel{
+    background-color: lightgray;
+    text-align: center;
+    padding: 1px;
+}
+
+.col-md-6{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#profession{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#overflow{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.line{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: inset;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol {
+    list-style-type:none;
+    background-color: #f2f2f2;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.contact-head{
+    background-color: #408ec9;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/* Maps */
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+/* Coordinates */
+#coordinates{
+    margin-left: 5px;
+}
+
+/* footer */
+.footer{
+   /* height: 100px; */
+   background-color: #408ec9;
+   text-align: center;
+   padding: 20px;
+   margin-top: 2px;
+   display: block;
+}
+
+
+/* Social Media */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.3;
+    color: whitesmoke;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+#talk {
+    background-image: url("../images/lightning.jpeg");
+    background-size: cover;
+    height: 160px;
+    color:yellow;
+    padding-top: 40px;
+
+
+}
+#speaker {
+    background-image: url("../images/speaker.jpeg");
+    background-size: cover;
+    height: 160px;
+    padding-top: 40px;
+
+
+
+
+
+}
+#stand {
+    background-image: url("../images/download (3).jpeg");
+    background-size: cover;
+    height: 160px;
+    color:yellow;
+    padding-top: 40px;
+
+
+}
+.well {
+    height:200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 40px;
+    margin left: -10px;
+}
+
+#kibanda{
+  background: url("../images/kibanda.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 160px;
+  padding: 40px;
+  color: #f15a19;
+}
+#guy{
+  background: url("../images/snack1.jpeg");
+  /* background: url("../images/snack2.jpeg"); */
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 160px;
+  padding: 40px;
+  color: #f15a19;
+}
+#kitchen{
+  background: url("../images/kitchen.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  height: 160px;
+  padding: 40px;
+  color: #f15a19;
+}
+.section-header{
+  text-align: center;
+}
+.recharge{
+  color: silver;
+}
+
+#head {
+  background-image: url("../images/top.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 500px;
+  min-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li {
+  float: left;
+}
+
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img {
+  float: left;
+  border-radius: 700%;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo {
+  float: left;
+  border-radius: 700%;
+}
+.word{
+  text-align: center;
+  background-color: #408ec9;
+}
+
+.panel-default{
+  background-color: #98AFC7;
+}
+
+body{
+  /* background-color: lightgrey; */
+}
+
+.navbar-inner{
+  background-color: transparent;
+}
+
+.container{
+  background-color: transparent;
+}
+.jumbotron{
+  background-image: url("../images/compeople.jpeg");
+  background-size: cover;
+  margin: 0px;
+  height: 700px;
+  text-align: center;
+}
+
+#navbar{
+  color: white;
+  background-color: black;
+}
